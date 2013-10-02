@@ -9,8 +9,8 @@
 
     <link rel="shortcut icon" href="/favicon.ico">
     <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="/assets/css/i.css">
+    <link rel="stylesheet" href="/assets/js/vendor/modernizr-2.6.2.custom.min.js">
     <script src="js/vendor/modernizr-2.6.2.min.js"></script>
   </head>
   <body>
@@ -39,7 +39,7 @@
       </section>
 
       <footer>
-        <p class="weird-character">Ӊ</p>
+        <p &copy; {{ site.time | date: '%Y' }} {{ site.owner.name }}. Powered by <a href="http://jekyllrb.com">Jekyll</a>.</p>
       </footer>
     </div>
   </body>
